@@ -1,0 +1,179 @@
+.contact-form_addcommodif .form-field_addcommodif{
+    position: relative;
+    margin-top: 50px;
+    margin-left: -150px;
+    top: -15px;
+    left: 40px;
+}
+/* arcom */
+.contact-form_addcommodif .form-field_addcommodif{
+    position: relative;
+    margin-top: 50px;
+    margin-left: -150px;
+    left: -10px;
+    top: -37px;
+  display: block;
+}
+.form-field_addcommodif .btn4{
+    outline: none;
+    background: #06D6A0;
+    width: 70%;
+    border: 0;
+    border-radius: 25px;
+    padding: 7px 20px;
+    color: aliceblue;
+    font-family: Raleway;
+    font-size: 13px;
+    cursor: pointer;
+    margin-left: 130px;
+   
+}
+
+.contact-form_addcommodif .input-text{
+    
+    width: 20%;
+    height: 25px;
+    border-width: 0 0 1px 0;
+    border-color: rgb(158, 158, 158);
+    font-size: 14px;
+    font-weight: 600;
+    outline: none;
+    background-color: white;
+    font-family: Raleway;
+    padding-left: 50px;
+    margin-left: 40px;
+    margin-top: 40px;
+    color: rgba(0, 0, 0, 0.829);
+}
+
+.contact-form_addcommodif .input-text:focus + .label_add,
+.contact-form_addcommodif .input-text.not-empty + .label_add{
+    transform: translateY(-10px);
+}
+.contact-form_addcommodif .input-text:focus{
+    outline: none;
+}
+.contact-form_addcommodif .label_add{
+    position: absolute;
+    left: 2px;
+    bottom: 16px;
+    font-size: 15px;
+    line-height: 25px;
+    cursor: text;
+    transition: transform 0.2s ease-in-out;
+    width: 200px;
+    color: rgba(0, 0, 0, 0.699);
+    font-style: oblique;
+    font-family: Raleway;
+}
+.contact-form_addcommodif .input-text{
+    display: block;
+    width: 160%;
+    height: 15px;
+    border-width: 0 0 1px 0;
+    border-color: rgb(158, 158, 158);
+    font-size: 14px;
+ 
+    font-weight: 600;
+    outline: none;
+    background-color: white;
+    font-family: Raleway;
+    margin-top: 18px;
+    color: rgba(0, 0, 0, 0.829);
+}
+
+/**/
+.contact-form_addarmodif .form-field_addarmodif{
+    position: relative;
+    margin-top: 50px;
+    margin-left: -150px;
+    top: -15    px;
+    left: 40px;
+}
+/* arcom */
+.contact-form_addarmodif .form-field_addarmodif{
+    position: relative;
+    margin-top: 50px;
+    margin-left: -150px;
+    left: -350px;
+    top: -130px;
+
+}
+.form-field_addarmodif .btn4{
+    outline: none;
+    background: #06D6A0;
+    width: 30%;
+    border: 0;
+    border-radius: 25px;
+    padding: 7px 20px;
+    color: aliceblue;
+    font-family: Raleway;
+    font-size: 13px;
+    cursor: pointer;
+    margin-left: 110px;
+   
+}
+
+.contact-form_addarmodif .input-text{
+    
+    width: 20%;
+    height: 25px;
+    border-width: 0 0 1px 0;
+    border-color: rgb(158, 158, 158);
+    font-size: 14px;
+    font-weight: 600;
+    outline: none;
+    background-color: white;
+    font-family: Raleway;
+    padding-left: 10px;
+    margin-left: 40px;
+    margin-top: 40px;
+    color: rgba(0, 0, 0, 0.829);
+}
+
+.contact-form_addarmodif .input-text:focus + .label_add,
+.contact-form_addarmodif .input-text.not-empty + .label_add{
+    transform: translateY(-10px);
+}
+.contact-form_addarmodif .input-text:focus{
+    outline: none;
+}
+.contact-form_addarmodif .label_add{
+    position: absolute;
+    left: 2px;
+    bottom: 16px;
+    font-size: 15px;
+    line-height: 25px;
+    cursor: text;
+    transition: transform 0.2s ease-in-out;
+    width: 200px;
+    color: rgba(0, 0, 0, 0.699);
+    font-style: oblique;
+    font-family: Raleway;
+}
+.contact-form_addarmodif .input-text{
+    display: block;
+    width: 80%;
+    height: 15px;
+    border-width: 0 0 1px 0;
+    border-color: rgb(158, 158, 158);
+    font-size: 14px;
+ 
+    font-weight: 600;
+    outline: none;
+    background-color: white;
+    font-family: Raleway;
+    margin-top: 50px;
+    color: rgba(0, 0, 0, 0.829);
+}
+.form-field_addarmodif p {
+    left: 2px;
+    bottom: 16px;
+    font-size: 15px;
+    line-height: 25px;
+    cursor: text;
+    transition: transform 0.2s ease-in-out;
+    color: rgba(0, 0, 0, 0.699);
+    font-style: oblique;
+    font-family: Raleway;
+}

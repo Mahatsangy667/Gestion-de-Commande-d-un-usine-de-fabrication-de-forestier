@@ -1,0 +1,210 @@
+
+.wave{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+    width: 38%;
+	height: 100%;
+	z-index: 1;
+}
+
+.containerlogin{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap :7rem;
+    padding: 0 2rem;
+}
+
+.imglogin {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.login-content{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+    margin-top: -45px;
+}
+
+.imglogin img{
+	width: 500px;
+    z-index: 2;
+    animation: floating2 2s ease-in-out 0s infinite;
+}
+
+.tongasoa{
+    /* border: 1px solid black; */
+    position: absolute;
+    margin-left: -23.5%;
+    width: 15%;
+    margin-top: -13%;
+    z-index: 9999;
+}
+.tongasoa #tonga{
+    /* text-align: center; */
+    color: #FFD166;
+    font-size: 26px;
+}
+.tongasoa #ampidiro{
+    /* text-align: center; */
+    color: #000000a6;
+    margin-top: 5%;
+}
+.tongasoa P{
+    font-size: 18px;
+    font-family:  spy Agency;
+    padding-left: 2px;
+}
+.form-Bg_login{
+    z-index: 15;
+    padding: 20px;
+    overflow: hidden;
+    padding-top: 1%;
+    
+    /* border: 1px solid black; */
+}
+.tongasoa hr{
+    height:0.6vh;
+    width:10vw;
+    color: #efa105;
+    background-color:#000000;
+    margin-top: -28%;
+    margin-left: 31px;
+}
+.form-header_login{
+    margin: 0 0 40px;
+    text-align: center;
+    position: absolute;
+    margin-left: -29%;
+    margin-top: -230px;
+    
+    /* border: 1px solid rgba(0, 0, 0, 0.479); */
+    background: #78d1e73b;
+    padding: 20% 3% 2% 2%;
+    border-radius: 30px 0px 24px 0px;
+    backdrop-filter: blur(6px);
+  
+    /* width: 31%; */
+}
+.sarykely {
+    width: 15%;
+    margin-top: -14cm;
+    margin-left: 480px;
+    left: 200px;
+    animation: floating2 2s ease-in-out 0s infinite;
+}
+
+.form-header_login .isionline p{
+    color: #333232be;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: Richness Demo;
+    margin-top: -80px;
+    border-radius: 20px;
+    padding: 0px 7px 0px 7px;
+    position: absolute;
+    margin-left: 75px;
+    backdrop-filter: blur(4px);
+}
+.form-group_login{
+    display: -webkit-box;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin: 0 0 15px;
+}
+
+.form-group_login .btn3{
+    outline: none;
+    background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+    width: 100%;
+    border: 0;
+    border-radius: 25px;
+    padding: 13px 20px;
+    color: aliceblue;
+    font-family: Raleway;
+    font-size: 13px;
+    cursor: pointer;
+}
+#FSA {
+    color: #32be8f;
+}
+.inputBox {
+    position: relative;
+    width: 300px;
+    bottom: 20px;
+}
+.inputBox input {
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-radius: 5px;
+    color: #343131;
+    border: 1px solid rgba(255, 255, 255, 2);
+    font-size: 1em;
+}
+.inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 15px 20px;
+    pointer-events: none;
+    font-size: 1em;
+    transition: 0.5s;
+    text-transform: uppercase;
+    color: #94dff8e5;
+    letter-spacing: 0.1em;
+}
+.inputBox input:focus ~ span, 
+.inputBox input:valid ~ span 
+{
+
+    color:#1d2b3a;
+    font-size: 0.75em;
+transform: translateX(10px) translateY(-10px);
+padding: 0 5px;
+background: #00dfc4 ;
+border-radius: 2px;
+
+}
+.form-header_login:hover{
+    animation: form-header1 6s ease-in-out 0s infinite;
+    transition: 4s;
+}
+@keyframes form-header1{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+#toogle {
+    position: absolute;
+    top: 38%;
+    transform: translateY(-50%);
+    right: 20px;
+    background: url("../img/yeux.png");
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+}
+#toogle.hide {
+    background: url("../img/yeuxferme.png");
+    background-size: cover;
+}

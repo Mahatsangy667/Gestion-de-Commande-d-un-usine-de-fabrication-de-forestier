@@ -1,0 +1,630 @@
+.titreCom{
+    width: 60%;
+    top:  100px;
+    margin-left: 19%;
+    display: flex;
+    position: absolute;
+    left: 10px;
+    justify-content: space-evenly;
+}
+.titreCom p{
+    text-align: center;
+    font-family: Spy Agency;
+    font-size: 35px;
+    margin-top: 4%;
+    color: rgba(253, 253, 253, 0.88);
+    position: absolute;
+}
+
+.infocom img{
+    width: 1.7%;
+    margin-left: 650px;
+    margin-top: 190px;
+}
+
+/*  End CLient AFFICHE */
+/* Table Article */
+.tablearticle{
+    max-height: 400px;
+    
+    padding-top: 20px;
+    padding-left: 340px;
+    margin-left: -190px;
+    width: 110%;
+    margin-bottom: 35px;
+}
+.content-tablearticle thead tr{
+    /* background-color: #009879; */
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    font-family: Raleway;
+    /* position: sticky; */
+}
+.content-tablearticle th{
+    background-color: #009879;
+    font-family: Raleway;
+    padding: 12px 46px;
+    text-align: center;
+    font-size: 13px;
+    position: sticky;
+    top: 0px;
+    
+    /* z-index: 1; */
+}
+.content-tablearticle td{
+    font-family: Raleway;
+    padding: 12px 39px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.582);
+}
+.content-tablearticle tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+.content-tablearticle tbody tr:nth-of-type(even){
+    background-color: #ffffffcc;
+    /* color: #009879; */
+}
+.content-tablearticle tbody tr:last-of-type{
+    border-bottom: 1px solid #009879;
+}
+
+/* Fin */
+/* Article commande */
+.tablearticlecomande{
+    max-height: 400px;
+    
+    padding-top: 120px;
+    padding-left: 334px;
+    margin-left: -190px;
+    width: 110%;
+    margin-bottom: 35px;
+}
+.content-tablearticlecomande thead tr{
+    /* background-color: #009879; */
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    font-family: Raleway;
+    /* position: sticky; */
+}
+.content-tablearticlecomande th{
+    background-color: #009879;
+    font-family: Raleway;
+    padding: 12px 46px;
+    text-align: center;
+    font-size: 13px;
+    position: sticky;
+    top: 0px;
+    
+    /* z-index: 1; */
+}
+.content-tablearticlecomande td{
+    font-family: Raleway;
+    padding: 12px 39px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.582);
+}
+.content-tablearticlecomande tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+.content-tablearticlecomande tbody tr:nth-of-type(even){
+    background-color: #ffffffcc;
+    /* color: #009879; */
+}
+.content-tablearticlecomande tbody tr:last-of-type{
+    border-bottom: 1px solid #009879;
+}
+
+/* FIN */
+/* Articles*/
+.tablearticles{
+    max-height: 400px;
+    padding-top: -15px;
+    padding-left: 490px;
+    margin-left: -190px;
+    width: 110%;
+    margin-bottom: 35px;
+}
+.content-tablearticles thead tr{
+    /* background-color: #009879; */
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    font-family: Raleway;
+    /* position: sticky; */
+}
+.content-tablearticles th{
+    background-color: #009879;
+    font-family: Raleway;
+    padding: 12px 46px;
+    text-align: center;
+    font-size: 13px;
+    position: sticky;
+    top: 0px;
+    
+    /* z-index: 1; */
+}
+.content-tablearticles td{
+    font-family: Raleway;
+    padding: 12px 39px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.582);
+}
+.content-tablearticles tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+.content-tablearticles tbody tr:nth-of-type(even){
+    background-color: #ffffffcc;
+    /* color: #009879; */
+}
+.content-tablearticles tbody tr:last-of-type{
+    border-bottom: 1px solid #009879;
+}
+
+/* FIN */
+/* DEbut Table */
+.tablecom{
+    max-height: 500px;
+    
+    padding-top: 13px;
+    padding-left: 150px;
+    margin-left: -145px;
+    width: 110%;
+    margin-bottom: 35px;
+}
+.content-table thead tr{
+    /* background-color: #009879; */
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    font-family: Raleway;
+    /* position: sticky; */
+}
+.content-table th{
+    background-color: #009879;
+    font-family: Raleway;
+    padding: 12px 46px;
+    text-align: center;
+    font-size: 13px;
+    position: sticky;
+    top: 0px;
+    /* z-index: 1; */
+}
+.content-table td{
+    font-family: Raleway;
+    padding: 12px 39px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.582);
+}
+.content-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+.content-table tbody tr:nth-of-type(even){
+    background-color: #ffffffcc;
+    /* color: #009879; */
+}
+.content-table tbody tr:last-of-type{
+    border-bottom: 1px solid #009879;
+}
+
+#ovainacom{
+    cursor: pointer;
+}
+#ovainacom img{
+    width: 13%;
+    padding-left: 3px;  
+}
+
+
+/* Fin Table */
+
+/*Debut add */
+
+
+#headImage3{
+    width: 334%;
+    filter: drop-shadow(8px 4px 4px rgba(0, 0, 0, 0.267));
+    position: absolute;
+    margin-top: -25%;
+    left: -69px;
+}
+
+.contact-form_addcom .form-field_addcom{
+    position: relative;
+    margin-top: 50px;
+    margin-left: -179px;
+    top: -38px;
+    left: 40px;
+}
+/* arcom */
+
+.contact-form_addarcom .form-field_addarcom{
+    position: relative;
+    margin-top: 50px;
+    margin-left: -350px;
+    left: 350px;
+    top: -18px;
+
+}
+.contact-form_addarcom .input-text{
+    
+    width: 15%;
+    height: 25px;
+    border-width: 0 0 1px 0;
+    border-color: rgb(158, 158, 158);
+    font-size: 14px;
+    font-weight: 600;
+    outline: none;
+    background-color: white;
+    font-family: Raleway;
+    padding-left: 13px;
+    margin-left: 40px;
+    margin-top: 40px;
+    color: rgba(0, 0, 0, 0.829);
+}
+
+.contact-form_addarcom .input-text:focus + .label_add,
+.contact-form_addarcom .input-text.not-empty + .label_add{
+    transform: translateY(-10px);
+}
+.contact-form_addarcom .input-text:focus{
+    outline: none;
+}
+.contact-form_addarcom .label_add{
+    position: absolute;
+    left: 2px;
+    bottom: 16px;
+    font-size: 15px;
+    line-height: 25px;
+    cursor: text;
+    transition: transform 0.2s ease-in-out;
+    width: 200px;
+    color: rgba(0, 0, 0, 0.699);
+    font-style: oblique;
+    font-family: Raleway;
+}
+ .btnarcom{
+    outline: none;
+    background: #06D6A0;
+    width: 13%;
+    border: 0;
+    border-radius: 25px;
+    padding: 7px 20px;
+    color: aliceblue;
+    font-family: Raleway;
+    font-size: 13px;
+    cursor: pointer;
+    margin-left: 240px;
+}
+/* arcom */
+.titrecom {
+    top: 100px;
+    left: -450px;
+}
+.titrepers {
+    top: 100px;
+    left: -450px;
+}
+.titrearcom {
+    top: 100px;
+    left: -450px;
+}
+.bodyAdd {
+    background: url("../img/back1.jpg") no-repeat center;
+    background-size: cover;
+    height:200%;
+    width: 200%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: relative;
+    
+}
+.content_imagecom {
+  
+   margin-left: 700px;
+   margin-right: 100px;
+   margin-top: 20px;
+   
+}
+.content_imagecom img {
+    width: 100%;
+}
+.contact-form_addcom .input-text{
+    display: block;
+    width: 160%;
+    height: 15px;
+    border-width: 0 0 1px 0;
+    border-color: rgb(158, 158, 158);
+    font-size: 14px;
+ 
+    font-weight: 600;
+    outline: none;
+    background-color: white;
+    font-family: Raleway;
+    margin-top: 18px;
+    color: rgba(0, 0, 0, 0.829);
+}
+.contact-form_addcom .input-text:focus + .label_add,
+.contact-form_addcom .input-text.not-empty + .label_add{
+    transform: translateY(-10px);
+}
+.contact-form_addcom .input-text:focus{
+    outline: none;
+}
+.contact-form_addcom .label_add{
+    position: absolute;
+    left: 2px;
+    bottom: 16px;
+    font-size: 15px;
+    line-height: 25px;
+    cursor: text;
+    transition: transform 0.2s ease-in-out;
+    width: 200px;
+    color: rgba(0, 0, 0, 0.699);
+    font-style: oblique;
+    font-family: Raleway;
+}
+.form-field_addcom .btn4{
+    outline: none;
+    background: #06D6A0;
+    width: 80%;
+    border: 0;
+    border-radius: 25px;
+    padding: 7px 20px;
+    color: aliceblue;
+    font-family: Raleway;
+    font-size: 13px;
+    cursor: pointer;
+    margin-left: 60px;
+}
+.get_in_touch{
+    max-width: 800px;
+    /* margin: 20px auto; */
+    /* position: relative; */
+    position: absolute;
+    /* box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.1); */
+    /* padding: 0px 0px 0px 0px; */
+    width: 500px;
+    height: 450px;
+    margin-top: 15px;
+}
+.container_addcom{
+    position: relative;
+    margin-top: 15%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.titrecom{
+    /* border: 1px solid black; */
+    width: 30%;
+    margin-left: 38%;
+    position: absolute;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+.titrecom p{
+    text-align: center;
+    font-family: Spy Agency;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.459);
+   
+}
+.titrepers{
+    /* border: 1px solid black; */
+    width: 88%;
+    margin-left: 38%;
+    top: 160px;
+    position: absolute;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+.titrepers p{
+    text-align: center;
+    font-family: Spy Agency;
+    font-size: 30px;
+    color: rgba(248, 247, 247, 0.968);
+   
+}
+.titrearcom{
+    /* border: 1px solid black; */
+    width: 30%;
+    margin-left: 38%;
+    position: absolute;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+.titrearcom p, hr{
+   margin-left: 120px;
+    font-family: Spy Agency;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.459);
+   
+}
+.titrearcom hr{
+    margin-left: 120px; 
+ }
+ 
+
+/* Fin Add */
+/*ODF */
+
+.contact-form_addodf .form-field_addodf{
+    position: relative;
+    margin-top: 50px;
+    margin-left: -270px;
+    left: 375px;
+    top: 38px;
+
+}
+.contact-form_addodf .nbr {
+    width: 10%;
+    height: 25px;
+    border-width: 0 0 1px 0;
+    border-color: rgb(158, 158, 158);
+    font-size: 14px;
+    font-weight: 400;
+    outline: none;
+    background-color: white;
+    margin-top: 12px;
+    font-family: Raleway;
+    margin-left: 7px;
+    color: rgba(0, 0, 0, 0.829);
+}
+.contact-form_addodf .input{
+    width: 10%;
+    height: 25px;
+    border-width: 0 0 1px 0;
+    border-color: rgb(158, 158, 158);
+    font-size: 14px;
+    font-weight: 400;
+    outline: none;
+    background-color: white;
+    font-family: Raleway;
+    margin-left: 7px;
+    color: rgba(0, 0, 0, 0.829);
+}
+.contact-form_addodf .input2{
+    width: 10%;
+    height: 25px;
+    border-width: 0 0 1px 0;
+    border-color: rgb(158, 158, 158);
+    font-size: 14px;
+    font-weight: 400;
+    outline: none;
+    background-color: white;
+    font-family: Raleway;
+    margin-left: 8px;
+    margin-top: -12px;
+    color: rgba(0, 0, 0, 0.829);
+}
+.contact-form_addodf .input-text{
+    
+    width: 40%;
+    height: 25px;
+    border-width: 0 0 1px 0;
+    border-color: rgb(158, 158, 158);
+    font-size: 14px;
+    font-weight: 200;
+    outline: none;
+    background-color: white;
+    font-family: Raleway;
+    margin-left: 130px;
+    margin-top: 55px;
+    margin-bottom: -38px;
+    color: rgba(0, 0, 0, 0.829);
+}
+
+
+.contact-form_addodf.input-text:focus + .label_add,
+.contact-form_addodf .input-text.not-empty + .label_add{
+    transform: translateY(-10px);
+}
+.contact-form_addodf .input-text:focus{
+    outline: none;
+}
+.contact-form_addodf .label_add{
+    position: absolute;
+
+    left: 2px;
+    bottom: 16px;
+    font-size: 15px;
+    line-height: 25px;
+    cursor: text;
+    transition: transform 0.2s ease-in-out;
+    width: 200px;
+    color: rgba(0, 0, 0, 0.699);
+    font-style: oblique;
+    font-family: Raleway;
+}
+.form-field_addodf .btn6{
+    outline: none;
+    background: #06D6A0;
+    width: 20%;
+    border: 0;
+    border-radius: 25px;
+    padding: 7px 20px;
+    color: aliceblue;
+    font-family: Raleway;
+    font-size: 13px;
+    cursor: pointer;
+    margin-left: 60px;
+}
+/**/
+/*BS*/
+
+/* arcom */
+
+.contact-form_addbs .form-field_addbs{
+    position: relative;
+    margin-top: 50px;
+    margin-left: -350px;
+    left: 495px;
+    top: -18px;
+
+}
+.contact-form_addbs .input-text{
+    
+    width: 25%;
+    height: 25px;
+    border-width: 0 0 1px 0;
+    border-color: rgb(158, 158, 158);
+    font-size: 14px;
+    font-weight: 600;
+    outline: none;
+    background-color: white;
+    font-family: Raleway;
+    padding-left: 13px;
+    margin-left: 40px;
+    margin-top: 50px;
+    color: rgba(0, 0, 0, 0.829);
+}
+
+.contact-form_addbs .input-text:focus + .label_add,
+.contact-form_addbs .input-text.not-empty + .label_add{
+    transform: translateY(-10px);
+}
+.contact-form_addbs .input-text:focus{
+    outline: none;
+}
+.contact-form_addbs .label_add{
+    position: absolute;
+    left: 2px;
+    bottom: 16px;
+    font-size: 15px;
+    line-height: 25px;
+    cursor: text;
+    transition: transform 0.2s ease-in-out;
+    width: 200px;
+    color: rgba(0, 0, 0, 0.699);
+    font-style: oblique;
+    font-family: Raleway;
+}
+ .btnbs{
+    outline: none;
+    background: #06D6A0;
+    width: 23%;
+    border: 0;
+    border-radius: 25px;
+    padding: 7px 20px;
+    color: aliceblue;
+    font-family: Raleway;
+    font-size: 13px;
+    cursor: pointer;
+    margin-left: 230px;
+    margin-top: 15px;
+}

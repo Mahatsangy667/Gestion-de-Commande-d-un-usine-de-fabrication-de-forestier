@@ -1,0 +1,71 @@
+.header__contents .left .navigation{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+#navlink{
+    text-decoration: none;
+                    color: var(--txt-color);
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    position: relative;
+                    transition: 0.3s;
+                    font-size: 17px;
+                    font-family: Richness Demo;
+                    font-weight: 55;
+    
+} 
+#navlink:hover{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    position: relative;
+    
+} 
+
+.header__contents .left .navigation  > div::before{
+    position: absolute;
+    content: "";
+    transform: translateX(2px);
+    height: 2px;
+    width: 25px;
+    text-decoration: none;
+    transition: bottom .9s ;
+}
+
+.header__contents .left .navigation>div.active::before {
+    bottom: 20px;
+    background: #118AB2;
+}
+.header__contents .left .navigation>div:hover::before{
+    bottom: 20px;
+    background: #118AB2;
+}
+
+.floating1{
+    animation: floating11 3s ease-in-out 0s infinite;
+}
+@keyframes floating11{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-6px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+@keyframes floating2{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-6px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}

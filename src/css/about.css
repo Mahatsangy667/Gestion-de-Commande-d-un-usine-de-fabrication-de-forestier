@@ -1,0 +1,460 @@
+
+
+/* TOOGEL MENU */
+
+/* ********************************* */
+
+.container{
+    width: 95%;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* txt_vers*/
+.txt_vers {
+    color: rgb(68, 67, 67);
+    font-size: 35px;
+    padding-left: 12px;
+}
+.txt_verte  {
+    color: #06D6A0;
+}
+/* For header */
+
+header{
+   background: var(--header-bg);
+   height: 4rem;
+   width: 100%;
+   position: fixed;
+   z-index: 2;
+   transition: var(--transition);
+}
+
+.header__contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__contents .left{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.header__contents .left .logo > svg{
+    width: 3rem;
+    height: 4rem;
+}
+
+.header__contents  svg{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+
+
+.header__contents .right{
+    display: flex;
+    gap: 2rem;
+}
+
+.header__contents .right .light__dark-mode{
+    width: 2rem;
+    height: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.header__contents .right .light__dark-mode .light-mode.active{
+    transform: translate(4px,3px);
+}
+
+.header__contents .right .light__dark-mode .light-mode.inactive{
+    transform: translate(3px,-25px);
+}
+
+.header__contents .right .light__dark-mode .dark-mode,.header__contents .right .light__dark-mode .light-mode{
+    width: 1.5rem;
+    height: 1.5rem;
+    transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.header__contents .right .light__dark-mode .dark-mode.active {
+    transform: translate(4px, -26px);
+}
+
+.header__contents .right .light__dark-mode .dark-mode.inactive{
+    transform: translate(0px, 10px);
+}
+
+/* for main-contents */
+.about__fokontany__container{
+    padding-top: 5rem;
+    margin-left: -155px;
+}
+
+
+
+
+.about__fokontany__container .container{
+    display: flex;
+    gap: 1rem;
+}
+.about__fokontany__container .container > .left{
+    width: 55%;
+}
+
+.about__fokontany__container .container>.left .top{
+    display: none;
+}
+
+.about__fokontany__container .container>.left .about{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.about__fokontany__container .container>.left .about > div{
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.about__fokontany__container .container>.left .about .round{
+    width: 14rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    /* background: var(--orange-dark); */
+}
+
+.about__fokontany__container .container>.left h1{
+    font-size: 2.5rem;
+    margin-top: 12px;
+    margin-left: -12px;
+}
+
+
+ .owl-carousel {
+     display: block;
+ }
+
+ .attrack {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+ }
+
+  .attrack .owl-dots{
+    width: fit-content;
+  }
+ .attrack .item {
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+ }
+
+
+.about__fokontany__container .container>.left .slide__container .content{
+    height: 16rem;
+    margin-top: 0.5rem;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+
+
+.about__fokontany__container .container>.left .descriptions__container span{
+    position: relative;
+    font-size: 1.2rem;
+}
+
+
+.about__fokontany__container .container>.left .descriptions__container span.active a{
+    opacity: 1;
+}
+
+.about__fokontany__container .container>.left .descriptions__container span.active::after{
+   position: absolute;
+   left: 0;
+   bottom: -5px;
+   content: "";
+   background: var(--secondaryColor);
+   width: 6rem;
+   height: 0.3rem;
+}
+
+.about__fokontany__container .container>.left .descriptions__container .descriptions__navigation{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.about__fokontany__container .container>.left .descriptions__container .descriptions{
+    display: flex;
+    gap: 1rem;
+}
+
+.about__fokontany__container .container>.left .descriptions {
+    margin-bottom: 2rem;
+}
+
+.about__fokontany__container .container>.left .description{
+    flex: 1;
+    border-radius: 10px;
+}
+
+.about__fokontany__container .container>.left .description img{
+    height: 10rem;
+    border-radius: 10px;
+}
+
+.about__fokontany__container .container>.left .description h5{
+    margin: 0.5rem 0;
+}
+
+.about__fokontany__container .container>.left .description p{
+    font-size: 12px;
+}
+
+.about__fokontany__container .container > .right{
+    position: fixed;
+    margin-left: 55%;
+    margin-right: 2.5rem;
+    width: 40%;
+}
+
+.about__fokontany__container .container>.right svg{
+    width: 3rem;
+    height: 3rem;
+}
+
+
+.about__fokontany__container .container>.right .top{
+    width: 100%;
+    height: 14rem;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.6)),url("./sapin.jpg") no-repeat center;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.about__fokontany__container .container>.right .top .date-heur p{
+    font-size: 3.7rem;
+    color: #ffffff;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about__fokontany__container .container>.right .top .date-heur span{
+    font-size: 14px;
+}
+
+
+.about__fokontany__container .container>.right .top .contents{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    width: 95%;
+    margin: auto;
+}
+.about__fokontany__container .container>.right .top .contents .content{
+    display: flex;
+    gap: 0.6rem;
+
+}
+.about__fokontany__container .container>.right .top .contents .info{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+    margin-top: 0.5rem;
+    color: #eaeaea;
+    font-size: 18px;
+    
+}
+
+.about__fokontany__container .container>.right .top .contents .info span{
+   font-weight: bolder;
+   text-shadow: 0px 0px 5px black;
+   font-size: 16px;
+}
+
+.about__fokontany__container .container>.right .bottom{
+    background: var(--right-bg);
+    box-shadow: 0px 0px 5px #00000062;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 25rem;
+    padding: 1rem;
+}
+
+.about__fokontany__container .container>.right .bottom > div:first-child{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+
+.about__fokontany__container .container>.right .bottom .content{
+    background: url("../img/image2.png") no-repeat center;
+    background-size: cover;
+    height:100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: relative;
+    
+}
+
+    
+
+.about__fokontany__container .container>.right .bottom .content > div{
+    position: relative;
+}
+
+
+
+.about__fokontany__container .container>.right .bottom .content .attrallantOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    /* border: 2px solid red; */
+    bottom: 0.2rem;
+    right: 4.8rem;
+}
+
+.about__fokontany__container .container>.right .bottom .content .attrallantTwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 4rem;
+    right: 1.5rem;
+    /* border: 2px solid green; */
+}
+
+.about__fokontany__container .container>.right .bottom .content .attrallantThree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 2rem;
+    right: 3.5rem;
+    /* border: 2px solid blue; */
+}
+
+.about__fokontany__container .container>.right .bottom .content .attrallantFour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 2.2rem;
+    right: 4.5rem;
+    /* border: 2px solid orange; */
+}
+
+.about__fokontany__container .container>.right .bottom .content .desc {
+    width: 200px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    animation: .4s ease-out;
+    transition: all .5s ease-out ;
+}
+
+.about__fokontany__container .container>.right .bottom .content .attrallantOne .desc{
+   top: -100px;
+   right: -230px;
+}
+
+.about__fokontany__container .container>.right .bottom .content .attrallantTwo .desc{
+    right: 50px;
+}
+
+.about__fokontany__container .container>.right .bottom .content .attrallantThree .desc {
+    left: 3rem;
+    top: -80px;
+}
+
+.about__fokontany__container .container>.right .bottom .content .attrallantFour .desc {
+    right: 2.2rem;
+    top: -130px;
+}
+
+
+
+.logoFa img{
+    width: 29%;
+    margin-top: -150px;
+    margin-left: -130px;
+}
+.texte{
+    margin-left: 90px;
+   
+}
+.number_section>div{
+    width: 1.5rem;
+    height: 3px;
+    background: var(--secondaryColor);
+    animation: animSectionLine 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite alternate;
+}
+.copy{
+    display: flex;
+    padding-top: 1%;
+}
+.copy img {
+    width: 4%;
+    height: 4%;
+}
+.copy p{
+    position: absolute;
+    font-family: raleway;
+    font-size: 12px ;
+
+    margin-left: 5%;
+    color: rgba(134, 128, 128, 0.897);
+}
+@keyframes animSectionLine {
+    to{
+        width: 7rem;
+    }
+}
+
+@keyframes animSectionLine2 {
+    to {
+        width: 7rem;
+    }
+}
+
+.orange-star{
+    width: 16px;
+    
+} 
